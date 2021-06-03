@@ -9,11 +9,11 @@ $config['protocol'] = 'mail'; // or 'smtp'
 $config['mailtype'] = 'html'; // or 'text'
 
 // $config['smtp_debug'] = '0'; // or '1'
-// $config['smtp_auth'] = TRUE; //or FALSE for anonymous relay NOTE: DONT USE QUOTES ' !
+$config['smtp_auth'] = getenv('SMTP_AUTH') ?? FALSE; //or FALSE for anonymous relay NOTE: DONT USE QUOTES ' !
 
-// $config['smtp_host'] = '';
+$config['smtp_host'] = getenv('SMTP_HOST') ?? '';
 // $config['smtp_host'] = '';
 // $config['smtp_user'] = '';
 // $config['smtp_pass'] = '';
 // $config['smtp_crypto'] = 'ssl'; // or 'tls'
-// $config['smtp_port'] = 25;
+$config['smtp_port'] = getenv('SMTP_PORT') ?? 25;

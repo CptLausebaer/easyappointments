@@ -5,15 +5,18 @@
 // @link https://codeigniter.com/user_guide/libraries/email.html
 
 $config['useragent'] = 'Easy!Appointments';
-$config['protocol'] = 'mail'; // or 'smtp'
-$config['mailtype'] = 'html'; // or 'text'
+$config['protocol'] = getenv('MAIL_PROTOCOL') ?? 'mail'; // 'mail' or 'smtp'
+$config['mailtype'] = getenv('MAIL_TYPE') ?? 'html'; // 'html' or 'text'
 
-// $config['smtp_debug'] = '0'; // or '1'
-$config['smtp_auth'] = getenv('SMTP_AUTH') ?? FALSE; //or FALSE for anonymous relay NOTE: DONT USE QUOTES ' !
+$config['smtp_debug'] = getenv('SMTP_DEBUG') ??'0'; // or '1'
+if (getenv('SMTP_AUTH') !== null) {
+    $config['smtp_auth'] = filter_var(getenv('SMTP_AUTH'), FILTER_VALIDATE_BOOLEAN);
+} else {
+    $config['smtp_auth'] = FALSE;
+}
 
 $config['smtp_host'] = getenv('SMTP_HOST') ?? '';
-// $config['smtp_host'] = '';
-// $config['smtp_user'] = '';
-// $config['smtp_pass'] = '';
-// $config['smtp_crypto'] = 'ssl'; // or 'tls'
+$config['smtp_user'] = getenv('SMTP_USER') ?? '';
+$config['smtp_pass'] = getenv('SMTP_PASS') ?? '';
+$config['smtp_crypto'] = getenv('SMTP_CRYPTO') ?? FALSE; // 'ssl' or 'tls'
 $config['smtp_port'] = getenv('SMTP_PORT') ?? 25;

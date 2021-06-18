@@ -1,0 +1,199 @@
+/*body .ui-widget {*/
+/*    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
+/*    font-size: 4.1em;*/
+/*}*/
+
+/* open-sans-ext-300-italic*/
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 300;
+    src: url('../ext/opensans/open-sans-all-300-italic.woff') format('woff');
+}
+/* open-sans-ext-300-normal*/
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+    src: url('../ext/opensans/open-sans-all-300-normal.woff') format('woff');
+}
+/* open-sans-ext-400-italic*/
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 400;
+    src: url('../ext/opensans/open-sans-all-400-italic.woff') format('woff');
+}
+/* open-sans-ext-400-normal*/
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: url('../ext/opensans/open-sans-all-400-normal.woff') format('woff');
+}
+/* open-sans-ext-600-italic*/
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 600;
+    src: url('../ext/opensans/open-sans-all-600-italic.woff') format('woff');
+}
+/* open-sans-ext-600-normal*/
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 600;
+    src: url('../ext/opensans/open-sans-all-600-normal.woff') format('woff');
+}
+/* open-sans-ext-700-italic*/
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 700;
+    src: url('../ext/opensans/open-sans-all-700-italic.woff') format('woff');
+}
+/* open-sans-ext-700-normal*/
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+    src: url('../ext/opensans/open-sans-all-700-normal.woff') format('woff');
+}
+/* open-sans-ext-800-italic*/
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 800;
+    src: url('../ext/opensans/open-sans-all-800-italic.woff') format('woff');
+}
+/* open-sans-ext-800-normal*/
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 800;
+    src: url('../ext/opensans/open-sans-all-800-normal.woff') format('woff');
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+    background: #002C77;
+}
+
+#header #header-menu .nav-item.active {
+    background: #0F2857;
+}
+
+#header #header-menu .nav-item:hover {
+    background: #2B74FC;
+}
+
+body .ui-draggable .ui-dialog-titlebar {
+    background: #002C77;
+}
+
+#book-appointment-wizard #company-name {
+    font-weight: bolder;
+}
+
+#book-appointment-wizard #header {
+    background: #002C77;
+}
+
+#book-appointment-wizard .active-step {
+    background: #FFF !important;
+}
+
+#book-appointment-wizard .book-step {
+    background: #0F2857;
+}
+
+#book-appointment-wizard .book-step strong {
+    color: #2B74FC;
+}
+
+body .modal-header {
+    background: #002C77;
+}
+
+body .modal-header h3 {
+    font-weight: bold;
+}
+
+body .ui-draggable .ui-dialog-titlebar {
+    background: #002C77;
+}
+
+body .ui-widget.ui-widget-content {
+    border: 1px solid #002C77;
+}
+
+body .ui-datepicker .ui-widget-header {
+    background: #002C77;
+}
+
+body .ui-datepicker th {
+    background: #002C77;
+}
+
+body .ui-datepicker td a, body .ui-datepicker td span {
+    color: #2057BD !important;
+}
+
+html body .ui-datepicker td a.ui-state-active {
+    background: #002C77 !important;
+}
+
+body .ui-datepicker td a.ui-state-highlight {
+    background: #2B74FC !important;
+}
+
+body .ui-datepicker .ui-datepicker-prev-hover {
+    background: #2B74FC;
+    border-color: #2B74FC;
+}
+
+body .ui-datepicker .ui-datepicker-next-hover {
+    background: #2B74FC;
+    border-color: #2B74FC;
+}
+
+#book-appointment-wizard #available-hours .selected-hour {
+    background: #002C77;
+}
+
+test {
+    color: #1a865f;
+    color: #429a82;
+    color: #0bb98d;
+    color: #225d4d;
+}
+
+/*
+normal #429a82
+light #0bb98d
+dark #225d4d
+
+ */
+
+/*
+JENA BLAU
+#2B74FC high-light
+#2B74FC lighter
+#2057BD light
+#002C77 normal
+#153A7D dark
+#0F2857 darker
+*/

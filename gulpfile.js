@@ -16,6 +16,7 @@ const zip = require('zip-dir');
 const plugins = require('gulp-load-plugins')();
 const {execSync} = require('child_process');
 const del = require('del');
+const uglify = require('gulp-uglify-es').default;
 
 // Gulp error handling.
 const source = gulp.src;
@@ -127,7 +128,7 @@ gulp.task('scripts', (done) => {
         '!assets/js/**/*.min.js'
     ])
         .pipe(plugins.changed('assets/js/**/*'))
-        .pipe(plugins.uglify().on('error', console.log))
+        .pipe(uglify().on('error', console.log))
         .pipe(plugins.rename({suffix: '.min'}))
         .pipe(gulp.dest('assets/js'));
 });

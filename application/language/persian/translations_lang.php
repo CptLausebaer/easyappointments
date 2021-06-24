@@ -328,3 +328,5 @@ $lang['list'] = 'لیست';
 $lang['default'] = 'پیش فرض';
 $lang['table'] = 'جدول';
 $lang['date'] = 'تاریخ';
+$lang['imprint'] = 'حک کردن';
+$lang['privacy_statement'] = 'حفظ حریم خصوصی';

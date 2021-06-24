@@ -329,4 +329,6 @@ $lang['list'] = 'Llista';
 $lang['default'] = 'Per defecte';
 $lang['table'] = 'Taula';
 $lang['date'] = 'Data';
+$lang['imprint'] = 'empremta';
+$lang['privacy_statement'] = 'declaració de privacitat';
 // End

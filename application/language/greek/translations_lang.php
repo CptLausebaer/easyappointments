@@ -329,4 +329,6 @@ $lang['list'] = 'Λίστα';
 $lang['default'] = 'Προεπιλογμένο';
 $lang['table'] = 'Πίνακας';
 $lang['date'] = 'Ημερομηνία';
+$lang['imprint'] = 'αποτύπωμα';
+$lang['privacy_statement'] = 'Δήλωση προστασίας προσωπικών δεδομένων';
 // End

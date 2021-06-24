@@ -329,4 +329,6 @@ $lang['list'] = 'Seznam';
 $lang['default'] = 'Výchozí';
 $lang['table'] = 'Tabulka';
 $lang['date'] = 'Datum';
+$lang['imprint'] = 'otisk';
+$lang['privacy_statement'] = 'Prohlášení o ochraně soukromí';
 // End

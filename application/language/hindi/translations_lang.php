@@ -329,4 +329,6 @@ $lang['list'] = 'List';
 $lang['default'] = 'Default';
 $lang['table'] = 'Table';
 $lang['date'] = 'Date';
+$lang['imprint'] = 'छाप';
+$lang['privacy_statement'] = 'गोपनीयता वाले कथन';
 // End

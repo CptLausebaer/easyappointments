@@ -329,4 +329,6 @@ $lang['list'] = 'Lista';
 $lang['default'] = 'Standard';
 $lang['table'] = 'Tabell';
 $lang['date'] = 'Date';
+$lang['imprint'] = 'avtryck';
+$lang['privacy_statement'] = 'sekretesspolicy';
 // End

@@ -329,4 +329,6 @@ $lang['list'] = 'List';
 $lang['default'] = 'Default';
 $lang['table'] = 'Table';
 $lang['date'] = 'Date';
+$lang['imprint'] = 'lenyomat';
+$lang['privacy_statement'] = 'adatvédelmi nyilatkozat';
 // End

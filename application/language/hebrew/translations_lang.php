@@ -329,4 +329,6 @@ $lang['list'] = 'רשימה';
 $lang['default'] = 'בְּרִירַת מֶחדָל';
 $lang['table'] = 'טבלה';
 $lang['date'] = 'תאריך';
+$lang['imprint'] = 'חוֹתָם';
+$lang['privacy_statement'] = 'הצהרת פרטיות';
 // End

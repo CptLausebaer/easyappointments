@@ -325,3 +325,5 @@ $lang['list'] = 'Liste';
 $lang['default'] = 'Standard';
 $lang['table'] = 'Tabelle';
 $lang['date'] = 'Datum';
+$lang['imprint'] = 'Impressum';
+$lang['privacy_statement'] = 'Datenschutz';

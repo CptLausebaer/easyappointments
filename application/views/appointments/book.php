@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#35A768">
 
-    <title><?= lang('page_title') . ' ' . $company_name ?></title>
+    <title><?= getenv('CUSTOM_SITE_TITLE') ?? lang('page_title') . ' ' . $company_name ?></title>
 
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/ext/bootstrap/css/bootstrap.min.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/ext/jquery-ui/jquery-ui.min.css') ?>">
@@ -98,7 +98,7 @@
 
             <div id="wizard-frame-1" class="wizard-frame">
                 <div class="frame-container">
-                    <h2 class="frame-title"><?= lang('service_and_provider') ?></h2>
+                    <h2 class="frame-title"><?= getenv('CUSTOM_SITE_TITLE') ?? lang('service_and_provider')?> </h2>
 
                     <div class="row frame-content">
                         <div class="col">
@@ -397,22 +397,41 @@
 
             <div id="frame-footer">
                 <small>
-                    <span class="footer-powered-by">
-                        Powered By
+                    <?php if (!getenv('CUSTOM_SITE_HIDE_POWERED_BY')): ?>
+                        <span class="footer-powered-by">
+                            Powered By
 
-                        <a href="https://easyappointments.org" target="_blank">Easy!Appointments</a>
-                    </span>
+                            <a href="https://easyappointments.org" target="_blank">Easy!Appointments</a>
+                        </span>
+                    <?php endif ?>
 
                     <span class="footer-options">
+
                         <span id="select-language" class="badge badge-secondary">
                             <i class="fas fa-language mr-2"></i>
                             <?= ucfirst(config('language')) ?>
                         </span>
 
-                        <a class="backend-link badge badge-primary" href="<?= site_url('backend'); ?>">
-                            <i class="fas fa-sign-in-alt mr-2"></i>
-                            <?= $this->session->user_id ? lang('backend_section') : lang('login') ?>
-                        </a>
+                        <?php if (getenv('CUSTOM_SITE_IMPRINT_URL')): ?>
+                            <a class="badge badge-secondary" href="<?= getenv('CUSTOM_SITE_IMPRINT_URL') ?? '' ?>">
+                                <i class="fas fa-balance-scale mr-2"></i>
+                                <?= lang('imprint') ?>
+                            </a>
+                        <?php endif ?>
+
+                        <?php if (getenv('CUSTOM_SITE_PRIVACY_URL')): ?>
+                            <a class="badge badge-secondary" href="<?= getenv('CUSTOM_SITE_PRIVACY_URL') ?? '' ?>">
+                                <i class="fas fa-unlock-alt mr-2"></i>
+                                <?= lang('privacy_statement') ?>
+                            </a>
+                        <?php endif ?>
+
+                        <?php if (!getenv('CUSTOM_SITE_HIDE_BACKEND_BTN')): ?>
+                            <a class="backend-link badge badge-primary" href="<?= site_url('backend'); ?>">
+                                <i class="fas fa-sign-in-alt mr-2"></i>
+                                <?= $this->session->user_id ? lang('backend_section') : lang('login') ?>
+                            </a>
+                        <?php endif ?>
                     </span>
                 </small>
             </div>

@@ -29,6 +29,7 @@ $lang['confirm'] = 'Επιβεβαίωση';
 $lang['update'] = 'Ενημέρωση';
 $lang['cancel_appointment_hint'] = 'Πιέστε το κουμπί "Ακύρωση" για να διαγράψετε το ραντεβού από το πλάνο της εταιρείας.';
 $lang['cancel'] = 'Άκυρο';
+$lang['cancel_btn'] = 'Άκυρο';
 $lang['appointment_registered'] = 'Το ραντεβού σας καταχωρήθηκε επιτυχώς.';
 $lang['cancel_appointment_title'] = 'Ακύρωση Ραντεβού';
 $lang['appointment_cancelled'] = 'Το ραντεβού σας ακυρώθηκε επιτυχώς.';

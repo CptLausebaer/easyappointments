@@ -29,6 +29,7 @@ $lang['confirm'] = 'Confirmar';
 $lang['update'] = 'Actualizar';
 $lang['cancel_appointment_hint'] = 'Presione el botón "Cancelar" para eliminar la cita de la agenda de la empresa.';
 $lang['cancel'] = 'Cancelar';
+$lang['cancel_btn'] = 'Cancelar';
 $lang['appointment_registered'] = 'Su cita ha sido registrada exitosamente';
 $lang['cancel_appointment_title'] = 'Cancelar cita';
 $lang['appointment_cancelled'] = 'Su cita ha sido cancelada exitosamente';

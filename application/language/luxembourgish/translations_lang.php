@@ -29,6 +29,7 @@ $lang['confirm'] = 'Bestätegung';
 $lang['update'] = 'Aktualiséierung';
 $lang['cancel_appointment_hint'] = 'Klickt w.e.g. "Ofbriechen" fir de Termäin aus dem Kalenner ze läschen.';
 $lang['cancel'] = 'Ofbriechen';
+$lang['cancel_btn'] = 'Ofbriechen';
 $lang['appointment_registered'] = 'Äre Termäin ass erfollegräich gespäichert ginn.';
 $lang['cancel_appointment_title'] = 'Termäin ofsoen';
 $lang['appointment_cancelled'] = 'Äre Termäin ass erfollegräich ofgesot ginn.';

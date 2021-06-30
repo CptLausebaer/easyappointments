@@ -29,6 +29,7 @@ $lang['confirm'] = 'Bekræft';
 $lang['update'] = 'opdater';
 $lang['cancel_appointment_hint'] = 'Tryk "annuller" for at aflyse aftalen';
 $lang['cancel'] = 'Annuller';
+$lang['cancel_btn'] = 'Annuller';
 $lang['appointment_registered'] = 'Din tidbestilling er registret';
 $lang['cancel_appointment_title'] = 'Slet tid';
 $lang['appointment_cancelled'] = 'Din tid er nu slettet';

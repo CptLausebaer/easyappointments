@@ -29,6 +29,7 @@ $lang['confirm'] = 'Bekräfta';
 $lang['update'] = 'Uppdatera';
 $lang['cancel_appointment_hint'] = 'Tryck på "Avbryt" för att ta bort bokningen';
 $lang['cancel'] = 'Avbryt';
+$lang['cancel_btn'] = 'Avbryt';
 $lang['appointment_registered'] = 'Din tidsbeställning är sparad';
 $lang['cancel_appointment_title'] = 'Avboka tid';
 $lang['appointment_cancelled'] = 'Din tid är ny avbokad';

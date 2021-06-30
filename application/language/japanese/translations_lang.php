@@ -29,6 +29,7 @@ $lang['confirm'] = '確認ＯＫ';
 $lang['update'] = '更新';
 $lang['cancel_appointment_hint'] = '会社のスケジュールから予約を削除するにはキャンセルボタンを押してください。';
 $lang['cancel'] = 'キャンセル';
+$lang['cancel_btn'] = 'キャンセル';
 $lang['appointment_registered'] = 'お客様の予約が完了しました。';
 $lang['cancel_appointment_title'] = '予約のキャンセル';
 $lang['appointment_cancelled'] = 'お客様の予約のキャンセルが完了しました。';

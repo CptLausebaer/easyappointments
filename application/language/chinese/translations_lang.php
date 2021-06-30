@@ -29,6 +29,7 @@ $lang['confirm'] = '确认';
 $lang['update'] = '更新';
 $lang['cancel_appointment_hint'] = '点击取消可从公司时间表移除预约.';
 $lang['cancel'] = '取消';
+$lang['cancel_btn'] = '取消';
 $lang['appointment_registered'] = '您的预约已经成功预定了.';
 $lang['cancel_appointment_title'] = '取消预约';
 $lang['appointment_cancelled'] = '您的预约已经成功取消了.';

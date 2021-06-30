@@ -29,6 +29,7 @@ $lang['confirm'] = 'Confirmati';
 $lang['update'] = 'Actualizare';
 $lang['cancel_appointment_hint'] = 'Apasati butonul Anulare ca sa stergeti întâlnirea din calendarul companiei.';
 $lang['cancel'] = 'Anulare';
+$lang['cancel_btn'] = 'Anulare';
 $lang['appointment_registered'] = 'Cererea dumneavoastra a fost înregistrata.';
 $lang['cancel_appointment_title'] = 'Anulare întâlnire';
 $lang['appointment_cancelled'] = 'Întâlnirea a fost anulata.';

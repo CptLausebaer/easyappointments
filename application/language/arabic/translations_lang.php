@@ -29,6 +29,7 @@ $lang['confirm'] = 'تأكيد';
 $lang['update'] = 'تحديث';
 $lang['cancel_appointment_hint'] = ' .إضغط زر "إلغاء" لحذف الموعد من الجدول';
 $lang['cancel'] = 'إلغاء';
+$lang['cancel_btn'] = 'إلغاء';
 $lang['appointment_registered'] = '!تم تسجيل الموعد بنجاح';
 $lang['cancel_appointment_title'] = 'إلغاء الموعد';
 $lang['appointment_cancelled'] = '!تم إلغاء الموعد بنجاح';

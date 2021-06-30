@@ -29,6 +29,7 @@ $lang['confirm'] = 'Confirm';
 $lang['update'] = 'Update';
 $lang['cancel_appointment_hint'] = 'Press the "Cancel" button to remove the appointment from the company schedule.';
 $lang['cancel'] = 'Cancel';
+$lang['cancel_btn'] = 'Cancel';
 $lang['appointment_registered'] = 'Your appointment has been successfully registered.';
 $lang['cancel_appointment_title'] = 'Cancel Appointment';
 $lang['appointment_cancelled'] = 'Your appointment has been successfully cancelled.';

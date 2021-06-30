@@ -29,6 +29,7 @@ $lang['confirm'] = 'Confirmation';
 $lang['update'] = 'Mise à jour';
 $lang['cancel_appointment_hint'] = 'Appuyer sur le bouton "Annuler" pour supprimer un rendez-vous de l\'agenda.';
 $lang['cancel'] = 'Annuler';
+$lang['cancel_btn'] = 'Annuler';
 $lang['appointment_registered'] = 'Votre rendez-vous a été enregistré avec succès .';
 $lang['cancel_appointment_title'] = 'Annuler le rendez-vous';
 $lang['appointment_cancelled'] = 'Votre rendez-vous a bien été annulé .';

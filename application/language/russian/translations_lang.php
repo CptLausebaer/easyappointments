@@ -29,6 +29,7 @@ $lang['confirm'] = 'Подтверждено';
 $lang['update'] = 'Обновить';
 $lang['cancel_appointment_hint'] = 'Нажмите кнопку "Отмена" для удаления назначения из расписания компании.';
 $lang['cancel'] = 'Отменить';
+$lang['cancel_btn'] = 'Отменить';
 $lang['appointment_registered'] = 'Ваше назначение благополучно зарегистрировано.';
 $lang['cancel_appointment_title'] = 'Отмена назначения';
 $lang['appointment_cancelled'] = 'Ваше назначение успешно отменено.';

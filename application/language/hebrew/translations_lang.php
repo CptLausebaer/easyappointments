@@ -29,6 +29,7 @@ $lang['confirm'] = 'אישור';
 $lang['update'] = 'עדכון';
 $lang['cancel_appointment_hint'] = 'לחץ על כפתור "ביטול" בכדי להסיר את הפגישה מתזמון החברה.';
 $lang['cancel'] = 'ביטול';
+$lang['cancel_btn'] = 'ביטול';
 $lang['appointment_registered'] = 'הפגישה שלך נרשמה בהצלחה!';
 $lang['cancel_appointment_title'] = 'ביטול פגישה';
 $lang['appointment_cancelled'] = 'הפגישה שלך בוטלה בהצלחה';

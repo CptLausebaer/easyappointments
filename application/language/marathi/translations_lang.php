@@ -29,6 +29,7 @@ $lang['confirm'] = 'खात्री करा';
 $lang['update'] = 'अद्यतनित करा';
 $lang['cancel_appointment_hint'] = 'कंपनीच्या वेळापत्रकातून अपॉईंटमेंट रद्द करण्यासाठी, "रद्द करा" बटण दाबा.';
 $lang['cancel'] = 'रद्द करा';
+$lang['cancel_btn'] = 'रद्द करा';
 $lang['appointment_registered'] = 'आपली भेट यशस्वीरित्या नोंदविली गेली आहे.';
 $lang['cancel_appointment_title'] = 'भेट रद्द करा';
 $lang['appointment_cancelled'] = 'आपली भेट यशस्वीरित्या रद्द केली गेली आहे.';

@@ -29,6 +29,7 @@ $lang['confirm'] = 'Potwierdź';
 $lang['update'] = 'Aktualizuj';
 $lang['cancel_appointment_hint'] = 'Przyciśnij \'Anuluj\' aby usunąć wizytę z terminarza.';
 $lang['cancel'] = 'Anulować';
+$lang['cancel_btn'] = 'Anulować';
 $lang['appointment_registered'] = 'Twoja wizyta została została pozytywnie zarejestrowana.';
 $lang['cancel_appointment_title'] = 'Anuluj Wizytę';
 $lang['appointment_cancelled'] = 'Twoja wizyta została anulowana.';

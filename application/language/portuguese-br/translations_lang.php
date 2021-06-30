@@ -29,6 +29,7 @@ $lang['confirm'] = 'Comfirmar';
 $lang['update'] = 'Atualizar';
 $lang['cancel_appointment_hint'] = 'Pressione o botão "cancelar" para cancelar o agendamento.';
 $lang['cancel'] = 'Cancelar';
+$lang['cancel_btn'] = 'Cancelar';
 $lang['appointment_registered'] = 'O agendamento foi registrado com sucesso.';
 $lang['cancel_appointment_title'] = 'Cancelar Agendamento';
 $lang['appointment_cancelled'] = 'Agendamento cancelado com sucesso.';

@@ -29,6 +29,7 @@ $lang['confirm'] = 'पक्का करें';
 $lang['update'] = 'अद्यतन';
 $lang['cancel_appointment_hint'] = 'कंपनी अनुसूची से अपॉइंटमेंट को दूर करने के लिए "रद् करें" बटन दबाएँ।';
 $lang['cancel'] = 'रद्द करें';
+$lang['cancel_btn'] = 'रद्द करें';
 $lang['appointment_registered'] = 'आपकी अपॉइंटमेंट को सफलतापूर्वक पंजीकृत किया गया है.';
 $lang['cancel_appointment_title'] = 'अपॉइंटमेंट रद्द करें';
 $lang['appointment_cancelled'] = 'आपकी अपॉइंटमेंट सफलतापूर्वक रद्द कर दिया गया है.';

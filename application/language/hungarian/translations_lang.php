@@ -29,6 +29,7 @@ $lang['confirm'] = 'Jóváhagyás';
 $lang['update'] = 'Frissít';
 $lang['cancel_appointment_hint'] = 'Nyomd meg a "Mégse" gombot az időpont cégből való eltávolításához';
 $lang['cancel'] = 'Mégse';
+$lang['cancel_btn'] = 'Mégse';
 $lang['appointment_registered'] = 'Az időpontodat sikeresen lefoglaltuk.';
 $lang['cancel_appointment_title'] = 'Időpont eltávolítása';
 $lang['appointment_cancelled'] = 'Az időpontot sikeresen lemondtad.';

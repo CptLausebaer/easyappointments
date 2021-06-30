@@ -29,6 +29,7 @@ $lang['confirm'] = 'Onayla';
 $lang['update'] = 'Güncelle';
 $lang['cancel_appointment_hint'] = 'Randevuyu şirket takviminden çıkarmak için lütfen "İptal" butonuna tıklayın.';
 $lang['cancel'] = 'İptal';
+$lang['cancel_btn'] = 'İptal';
 $lang['appointment_registered'] = 'Randevunuz başarı ile kaydedildi.';
 $lang['cancel_appointment_title'] = 'Randevuyu İptal Et';
 $lang['appointment_cancelled'] = 'Randevunuz başarı ile iptal edildi.';

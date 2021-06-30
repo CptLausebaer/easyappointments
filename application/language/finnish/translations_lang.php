@@ -29,6 +29,7 @@ $lang['confirm'] = 'Vahvista';
 $lang['update'] = 'Päivitä';
 $lang['cancel_appointment_hint'] = 'Paina "Peruuta" poistaaksesi varauksen.';
 $lang['cancel'] = 'Peruuta';
+$lang['cancel_btn'] = 'Peruuta';
 $lang['appointment_registered'] = 'Varauksen rekisteröinti onnistui.';
 $lang['cancel_appointment_title'] = 'Peruuta varaus';
 $lang['appointment_cancelled'] = 'Varauksen peruutus onnistui.';

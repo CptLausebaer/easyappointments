@@ -29,6 +29,7 @@ $lang['confirm'] = 'Bevestigen';
 $lang['update'] = 'Update';
 $lang['cancel_appointment_hint'] = 'Druk op de knop "Annuleren" om uw afspraak te verwijderen van de agenda van dit bedrijf.';
 $lang['cancel'] = 'Annuleren';
+$lang['cancel_btn'] = 'Annuleren';
 $lang['appointment_registered'] = 'Uw afspraak is succesvol geboekt.';
 $lang['cancel_appointment_title'] = 'Afspraak annuleren';
 $lang['appointment_cancelled'] = 'Uw afspraak is met succes geannuleerd.';

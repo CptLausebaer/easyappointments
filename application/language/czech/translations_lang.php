@@ -27,6 +27,7 @@ $lang['confirm'] = 'Potvrdit';
 $lang['update'] = 'Změnit';
 $lang['cancel_appointment_hint'] = 'Pro odebrání schůzky z kalendáře společnosti klikněte na tlačítko "Zrušit".';
 $lang['cancel'] = 'Zrušit';
+$lang['cancel_btn'] = 'Zrušit';
 $lang['appointment_registered'] = 'Vaše schůzka byla úspěšně registrována.';
 $lang['cancel_appointment_title'] = 'Zrušit schůzku';
 $lang['appointment_cancelled'] = 'Vaše schůzka byla úspěšně zrušena.';

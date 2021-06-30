@@ -29,6 +29,7 @@ $lang['confirm'] = 'تایید';
 $lang['update'] = 'به روز رسانی';
 $lang['cancel_appointment_hint'] = 'برای حذف قرار ملاقات از برنامه شرکت، دکمه لغو را بفشارید';
 $lang['cancel'] = 'لغو';
+$lang['cancel_btn'] = 'لغو';
 $lang['appointment_registered'] = 'قرار ملاقات شما با موفقیت ثبت گردید';
 $lang['cancel_appointment_title'] = 'لغو قرار ملاقات';
 $lang['appointment_cancelled'] = 'قرار ملاقات شما با موفقیت لغو گردید';

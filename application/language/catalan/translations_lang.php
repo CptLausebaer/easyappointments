@@ -29,6 +29,7 @@ $lang['confirm'] = 'Confirma';
 $lang['update'] = 'Actualitza';
 $lang['cancel_appointment_hint'] = 'Prem el botó "Cancel·la" per eliminar la cita del calendari de l\'organització.';
 $lang['cancel'] = 'Cancel·la';
+$lang['cancel_btn'] = 'Cancel·la';
 $lang['appointment_registered'] = 'La vostra cita s\'ha desat correctament!.';
 $lang['cancel_appointment_title'] = 'Cancel·lació de la cita';
 $lang['appointment_cancelled'] = 'La vostra cita s\'ha cancel·lat correctament.';

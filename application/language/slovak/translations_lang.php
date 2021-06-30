@@ -29,6 +29,7 @@ $lang['confirm'] = 'Potvrdiť';
 $lang['update'] = 'Update';
 $lang['cancel_appointment_hint'] = 'Stlačte tlačidlo "Zrušiť" pre odstránenie Vašej rezervácie.';
 $lang['cancel'] = 'Zrušiť';
+$lang['cancel_btn'] = 'Zrušiť';
 $lang['appointment_registered'] = 'Vaša rezervácia bola zaregistrovaná.';
 $lang['cancel_appointment_title'] = 'Zrušiť rezerváciu';
 $lang['appointment_cancelled'] = 'Vaša rezervácia bola zrušená.';

@@ -29,6 +29,7 @@ $lang['confirm'] = 'Conferma';
 $lang['update'] = 'Aggiorna';
 $lang['cancel_appointment_hint'] = 'Clicca sul bottone "Cancella" per rimuovere l\'appuntamento dalla pianificazione aziendale.';
 $lang['cancel'] = 'Annulla';
+$lang['cancel_btn'] = 'Annulla';
 $lang['appointment_registered'] = 'Il tuo appuntamento è stato registrato con successo.';
 $lang['cancel_appointment_title'] = 'Cancella appuntamento';
 $lang['appointment_cancelled'] = 'Il tuo appuntamento è stato cancellato con successo.';

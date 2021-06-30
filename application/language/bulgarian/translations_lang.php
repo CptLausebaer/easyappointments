@@ -29,6 +29,7 @@ $lang['confirm'] = 'Потвърждение';
 $lang['update'] = 'Актуализиране';
 $lang['cancel_appointment_hint'] = 'Натиснете бутон "отказ" за да отстраните часът си от графика.';
 $lang['cancel'] = 'Отказ';
+$lang['cancel_btn'] = 'Отказ';
 $lang['appointment_registered'] = 'Часът Ви бе успешно регистриран.';
 $lang['cancel_appointment_title'] = 'Отказ на Час';
 $lang['appointment_cancelled'] = 'Часът Ви бе успешно анулиран.';

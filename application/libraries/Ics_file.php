@@ -21,6 +21,7 @@ use Jsvrcek\ICS\Model\Description\Location;
 use Jsvrcek\ICS\Model\Relationship\Attendee;
 use Jsvrcek\ICS\Model\Relationship\Organizer;
 use Jsvrcek\ICS\Utility\Formatter;
+use Ramsey\Uuid\Uuid;
 
 /**
  * Class Ics_file
@@ -54,12 +55,14 @@ class Ics_file {
         // Setup the event.
         $event = new CalendarEvent();
 
+        $uuid = Uuid::uuid4();
+
         $event
             ->setStart($appointment_start)
             ->setEnd($appointment_end)
             ->setStatus('CONFIRMED')
             ->setSummary($service['name'])
-            ->setUid($appointment['id']);
+            ->setUid(    $uuid->toString());
 
         if (!empty($service['location']))
         {

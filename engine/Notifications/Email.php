@@ -154,8 +154,12 @@ class Email {
             'customer_name' => $customer['first_name'] . ' ' . $customer['last_name'],
             'customer_email' => $customer['email'],
             'customer_phone' => $customer['phone_number'],
-            'customer_address' => implode(', ', [$customer['address'], $customer['city'], $customer['zip_code']]),
-            'service_description' => array_key_exists('description', $service) ? $service['description'] : '',,
+            'customer_address' => implode(', ',
+                [array_key_exists('address', $customer) ? $customer['address'] : '',
+                    array_key_exists('city', $customer) ? $customer['city'] : '',
+                    array_key_exists('zip_code', $customer) ? $customer['zip_code'] : '']
+            ),
+            'service_description' => array_key_exists('description', $service) ? $service['description'] : '',
             'appointment_notes' => $appointment['notes']
         ], TRUE);
 

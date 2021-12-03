@@ -32,6 +32,16 @@
                 </p>
 
                 <p>
+                    <h5>Hinweise zur Dienstleistung</h5>
+                    <?= $service_data['description'] ?>
+                </p>
+
+                <p>
+                    Bei Fragen oder Problemen wenden sie sich bitte per E-Mail an : <?= $provider_data['email'] ?><br>
+                    oder per Telefon an  <?= $provider_data['phone_number'] ?>
+                </p>
+
+                <p>
                     <strong>
                         <?= lang('check_spam_folder') ?>
                     </strong>

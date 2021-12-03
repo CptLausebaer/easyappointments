@@ -285,6 +285,7 @@ class Appointments extends EA_Controller {
                 'first_name' => $provider['first_name'],
                 'last_name' => $provider['last_name'],
                 'email' => $provider['email'],
+                'phone_number' => $provider['phone_number'],
                 'timezone' => $provider['timezone'],
             ],
             'customer_data' => [

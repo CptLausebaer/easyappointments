@@ -14,6 +14,8 @@
         <h2><?= $email_title ?></h2>
         <p><?= $email_message ?></p>
 
+        <p><?= $service_description ?></p>
+
         <h2><?= lang('appointment_details_title') ?></h2>
         <table id="appointment-details">
             <tr>
@@ -23,6 +25,10 @@
             <tr>
                 <td class="label" style="padding: 3px;font-weight: bold;"><?= lang('provider') ?></td>
                 <td style="padding: 3px;"><?= $appointment_provider ?></td>
+            </tr>
+            <tr>
+                <td class="label" style="padding: 3px;font-weight: bold;"><?= lang('location') ?></td>
+                <td style="padding: 3px;"><?= $appointment_location ?></td>
             </tr>
             <tr>
                 <td class="label" style="padding: 3px;font-weight: bold;"><?= lang('start') ?></td>
@@ -55,6 +61,10 @@
             <tr>
                 <td class="label" style="padding: 3px;font-weight: bold;"><?= lang('address') ?></td>
                 <td style="padding: 3px;"><?= $customer_address ?></td>
+            </tr>
+            <tr>
+                <td class="label" style="padding: 3px;font-weight: bold;"><?= lang('notes') ?></td>
+                <td style="padding: 3px;"><?= $appointment_notes ?></td>
             </tr>
         </table>
 
